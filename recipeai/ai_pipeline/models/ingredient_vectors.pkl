@@ -1,0 +1,2 @@
+# placeholder for binary model: ingredient_vectors.pkl
+# store actual vectors here in production

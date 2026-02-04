@@ -1,0 +1,17 @@
+{
+  "chicken": {
+    "role": "protein",
+    "texture": "tender",
+    "flavor": "mild-savory"
+  },
+  "tofu": {
+    "role": "protein",
+    "texture": "soft-firm",
+    "flavor": "neutral"
+  },
+  "eggs": {
+    "role": ["protein", "binding"],
+    "texture": "soft",
+    "flavor": "rich"
+  }
+}

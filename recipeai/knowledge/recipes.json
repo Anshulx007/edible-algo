@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1",
+    "name": "Chicken Pasta",
+    "cuisine": "Italian",
+    "ingredients": ["chicken", "pasta", "parmesan"],
+    "dietary_tags": []
+  },
+  {
+    "id": "2",
+    "name": "Veggie Stir Fry",
+    "cuisine": "Asian",
+    "ingredients": ["tofu", "vegetables", "soy sauce"],
+    "dietary_tags": ["vegan", "vegetarian"]
+  },
+  {
+    "id": "3",
+    "name": "Caesar Salad",
+    "cuisine": "American",
+    "ingredients": ["romaine", "parmesan", "croutons"],
+    "dietary_tags": ["vegetarian"]
+  },
+  {
+    "id": "4",
+    "name": "Avocado Toast",
+    "cuisine": "American",
+    "ingredients": ["bread", "avocado", "lemon"],
+    "dietary_tags": ["vegan", "vegetarian"]
+  },
+  {
+    "id": "5",
+    "name": "Apple Cinnamon Oatmeal",
+    "cuisine": "American",
+    "ingredients": ["oats", "apple", "cinnamon"],
+    "dietary_tags": ["vegan", "vegetarian", "gluten-free"]
+  },
+  {
+    "id": "6",
+    "name": "Beef Tacos",
+    "cuisine": "Mexican",
+    "ingredients": ["beef", "tortillas", "lettuce"],
+    "dietary_tags": []
+  },
+  {
+    "id": "7",
+    "name": "Black Bean Burrito",
+    "cuisine": "Mexican",
+    "ingredients": ["black beans", "rice", "tortilla"],
+    "dietary_tags": ["vegan", "vegetarian"]
+  },
+  {
+    "id": "8",
+    "name": "Caprese Salad",
+    "cuisine": "Italian",
+    "ingredients": ["tomato", "mozzarella", "basil"],
+    "dietary_tags": ["vegetarian", "gluten-free"]
+  },
+  {
+    "id": "9",
+    "name": "Chicken Shawarma",
+    "cuisine": "Middle Eastern",
+    "ingredients": ["chicken", "pita", "garlic sauce"],
+    "dietary_tags": []
+  },
+  {
+    "id": "10",
+    "name": "Chickpea Curry",
+    "cuisine": "Indian",
+    "ingredients": ["chickpeas", "tomato", "spices"],
+    "dietary_tags": ["vegan", "vegetarian", "gluten-free"]
+  },
+  {
+    "id": "11",
+    "name": "Egg Fried Rice",
+    "cuisine": "Asian",
+    "ingredients": ["rice", "egg", "soy sauce"],
+    "dietary_tags": ["vegetarian"]
+  },
+  {
+    "id": "12",
+    "name": "Falafel Wrap",
+    "cuisine": "Middle Eastern",
+    "ingredients": ["falafel", "pita", "tahini"],
+    "dietary_tags": ["vegan", "vegetarian"]
+  },
+  {
+    "id": "13",
+    "name": "Garden Salad",
+    "cuisine": "American",
+    "ingredients": ["lettuce", "cucumber", "tomato"],
+    "dietary_tags": ["vegan", "vegetarian", "gluten-free"]
+  },
+  {
+    "id": "14",
+    "name": "Greek Yogurt Parfait",
+    "cuisine": "Greek",
+    "ingredients": ["yogurt", "berries", "granola"],
+    "dietary_tags": ["vegetarian"]
+  },
+  {
+    "id": "15",
+    "name": "Grilled Salmon",
+    "cuisine": "American",
+    "ingredients": ["salmon", "lemon", "herbs"],
+    "dietary_tags": ["gluten-free"]
+  },
+  {
+    "id": "16",
+    "name": "Hummus Plate",
+    "cuisine": "Middle Eastern",
+    "ingredients": ["hummus", "olive oil", "pita"],
+    "dietary_tags": ["vegan", "vegetarian"]
+  },
+  {
+    "id": "17",
+    "name": "Italian Minestrone",
+    "cuisine": "Italian",
+    "ingredients": ["beans", "vegetables", "pasta"],
+    "dietary_tags": ["vegetarian"]
+  },
+  {
+    "id": "18",
+    "name": "Japanese Miso Soup",
+    "cuisine": "Japanese",
+    "ingredients": ["miso", "tofu", "seaweed"],
+    "dietary_tags": ["vegan", "vegetarian", "gluten-free"]
+  },
+  {
+    "id": "19",
+    "name": "Kale Quinoa Bowl",
+    "cuisine": "American",
+    "ingredients": ["kale", "quinoa", "lemon"],
+    "dietary_tags": ["vegan", "vegetarian", "gluten-free"]
+  },
+  {
+    "id": "20",
+    "name": "Lentil Soup",
+    "cuisine": "Mediterranean",
+    "ingredients": ["lentils", "carrot", "celery"],
+    "dietary_tags": ["vegan", "vegetarian", "gluten-free"]
+  },
+  {
+    "id": "21",
+    "name": "Mango Smoothie",
+    "cuisine": "American",
+    "ingredients": ["mango", "banana", "yogurt"],
+    "dietary_tags": ["vegetarian", "gluten-free"]
+  },
+  {
+    "id": "22",
+    "name": "Margherita Pizza",
+    "cuisine": "Italian",
+    "ingredients": ["tomato", "mozzarella", "basil"],
+    "dietary_tags": ["vegetarian"]
+  },
+  {
+    "id": "23",
+    "name": "Mushroom Risotto",
+    "cuisine": "Italian",
+    "ingredients": ["rice", "mushroom", "parmesan"],
+    "dietary_tags": ["vegetarian", "gluten-free"]
+  },
+  {
+    "id": "24",
+    "name": "Paneer Tikka",
+    "cuisine": "Indian",
+    "ingredients": ["paneer", "yogurt", "spices"],
+    "dietary_tags": ["vegetarian", "gluten-free"]
+  },
+  {
+    "id": "25",
+    "name": "Pesto Pasta",
+    "cuisine": "Italian",
+    "ingredients": ["pasta", "basil", "parmesan"],
+    "dietary_tags": ["vegetarian"]
+  },
+  {
+    "id": "26",
+    "name": "Quinoa Stuffed Peppers",
+    "cuisine": "American",
+    "ingredients": ["quinoa", "bell pepper", "tomato"],
+    "dietary_tags": ["vegan", "vegetarian", "gluten-free"]
+  },
+  {
+    "id": "27",
+    "name": "Roasted Vegetable Bowl",
+    "cuisine": "American",
+    "ingredients": ["zucchini", "carrot", "olive oil"],
+    "dietary_tags": ["vegan", "vegetarian", "gluten-free"]
+  },
+  {
+    "id": "28",
+    "name": "Spinach Omelet",
+    "cuisine": "American",
+    "ingredients": ["eggs", "spinach", "cheddar"],
+    "dietary_tags": ["vegetarian", "gluten-free"]
+  },
+  {
+    "id": "29",
+    "name": "Tofu Teriyaki",
+    "cuisine": "Asian",
+    "ingredients": ["tofu", "teriyaki", "rice"],
+    "dietary_tags": ["vegan", "vegetarian"]
+  },
+  {
+    "id": "30",
+    "name": "Tomato Basil Soup",
+    "cuisine": "American",
+    "ingredients": ["tomato", "basil", "cream"],
+    "dietary_tags": ["vegetarian", "gluten-free"]
+  }
+]

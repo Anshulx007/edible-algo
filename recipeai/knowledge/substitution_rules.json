@@ -1,0 +1,19 @@
+{
+  "chicken": {
+    "vegan": ["tofu", "tempeh", "chickpeas"],
+    "vegetarian": ["paneer", "halloumi"]
+  },
+  "milk": {
+    "vegan": ["oat milk", "almond milk", "soy milk"],
+    "lactose-free": ["lactose-free milk"]
+  },
+  "butter": {
+    "vegan": ["coconut oil", "vegan butter", "olive oil"]
+  },
+  "eggs": {
+    "vegan": ["flax eggs", "aquafaba", "mashed banana"]
+  },
+  "parmesan": {
+    "vegan": ["nutritional yeast", "vegan parmesan"]
+  }
+}

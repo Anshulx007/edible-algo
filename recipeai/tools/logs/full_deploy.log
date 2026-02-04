@@ -1,0 +1,373 @@
+2026-02-04 15:14:29 | INFO | 
+2026-02-04 15:14:29 | INFO | ============================================================
+2026-02-04 15:14:29 | INFO | RECIPEAI FULL DEPLOYMENT STARTED
+2026-02-04 15:14:29 | INFO | ============================================================
+2026-02-04 15:14:29 | INFO | 
+2026-02-04 15:14:29 | INFO | ============================================================
+2026-02-04 15:14:29 | INFO | STEP 1: Restarting Backend
+2026-02-04 15:14:29 | INFO | ============================================================
+2026-02-04 15:14:29 | INFO | Stopping existing backend...
+2026-02-04 15:14:30 | INFO | Starting backend on port 8080...
+2026-02-04 15:14:33 | INFO | Backend started
+2026-02-04 15:14:33 | INFO | ============================================================
+2026-02-04 15:14:33 | INFO | STEP 2: Starting Cloudflare Tunnel
+2026-02-04 15:14:33 | INFO | ============================================================
+2026-02-04 15:14:33 | INFO | Checking for existing tunnel...
+2026-02-04 15:14:35 | INFO | Starting tunnel...
+2026-02-04 15:14:35 | ERROR | 
+2026-02-04 15:14:35 | ERROR | ============================================================
+2026-02-04 15:14:35 | ERROR | DEPLOYMENT FAILED: [Errno 2] No such file or directory: 'cloudflared'
+2026-02-04 15:14:35 | ERROR | ============================================================
+2026-02-04 15:14:35 | ERROR | 
+2026-02-04 15:15:05 | INFO | 
+2026-02-04 15:15:05 | INFO | ============================================================
+2026-02-04 15:15:05 | INFO | RECIPEAI FULL DEPLOYMENT STARTED
+2026-02-04 15:15:05 | INFO | ============================================================
+2026-02-04 15:15:05 | INFO | 
+2026-02-04 15:15:05 | INFO | ============================================================
+2026-02-04 15:15:05 | INFO | STEP 1: Restarting Backend
+2026-02-04 15:15:05 | INFO | ============================================================
+2026-02-04 15:15:05 | INFO | Stopping existing backend...
+2026-02-04 15:15:06 | INFO | Starting backend on port 8080...
+2026-02-04 15:15:09 | INFO | Backend started
+2026-02-04 15:15:09 | INFO | ============================================================
+2026-02-04 15:15:09 | INFO | STEP 2: Starting Cloudflare Tunnel
+2026-02-04 15:15:09 | INFO | ============================================================
+2026-02-04 15:15:09 | INFO | Checking for existing tunnel...
+2026-02-04 15:15:12 | INFO | Starting tunnel...
+2026-02-04 15:15:12 | ERROR | 
+2026-02-04 15:15:12 | ERROR | ============================================================
+2026-02-04 15:15:12 | ERROR | DEPLOYMENT FAILED: [Errno 2] No such file or directory: 'cloudflared'
+2026-02-04 15:15:12 | ERROR | ============================================================
+2026-02-04 15:15:12 | ERROR | 
+2026-02-04 15:15:48 | INFO | 
+2026-02-04 15:15:48 | INFO | ============================================================
+2026-02-04 15:15:48 | INFO | RECIPEAI FULL DEPLOYMENT STARTED
+2026-02-04 15:15:48 | INFO | ============================================================
+2026-02-04 15:15:48 | INFO | 
+2026-02-04 15:15:48 | INFO | ============================================================
+2026-02-04 15:15:48 | INFO | STEP 1: Restarting Backend
+2026-02-04 15:15:48 | INFO | ============================================================
+2026-02-04 15:15:48 | INFO | Stopping existing backend...
+2026-02-04 15:15:49 | INFO | Starting backend on port 8080...
+2026-02-04 15:15:52 | INFO | Backend started
+2026-02-04 15:15:52 | INFO | ============================================================
+2026-02-04 15:15:52 | INFO | STEP 2: Starting Cloudflare Tunnel
+2026-02-04 15:15:52 | INFO | ============================================================
+2026-02-04 15:15:52 | INFO | Checking for existing tunnel...
+2026-02-04 15:15:54 | INFO | Starting tunnel...
+2026-02-04 15:15:54 | INFO | Waiting for tunnel to initialize...
+2026-02-04 15:16:00 | INFO | Tunnel URL: https://implementing-comfortable-elections-finances.trycloudflare.com
+2026-02-04 15:16:00 | INFO | ============================================================
+2026-02-04 15:16:00 | INFO | STEP 3: Updating Frontend .env.local
+2026-02-04 15:16:00 | INFO | ============================================================
+2026-02-04 15:16:00 | INFO | Updated .env.local with tunnel URL
+2026-02-04 15:16:00 | INFO | ============================================================
+2026-02-04 15:16:00 | INFO | STEP 4: Building Frontend
+2026-02-04 15:16:00 | INFO | ============================================================
+2026-02-04 15:16:00 | INFO | Running npm build...
+2026-02-04 15:16:04 | INFO | 
+> recipeai-frontend@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 1492 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.42 kB │ gzip:  0.29 kB
+dist/assets/index-KDyOwIC3.css   21.21 kB │ gzip:  4.79 kB
+dist/assets/index-Dt-DROsd.js   263.60 kB │ gzip: 87.14 kB
+✓ built in 3.65s
+
+2026-02-04 15:16:04 | INFO | Frontend built successfully
+2026-02-04 15:16:04 | INFO | Build output: /workspaces/edible-algo/recipeai/frontend/dist
+2026-02-04 15:16:04 | INFO | ============================================================
+2026-02-04 15:16:04 | INFO | STEP 5: Deploying to Netlify
+2026-02-04 15:16:04 | INFO | ============================================================
+2026-02-04 15:16:04 | INFO | Deploying with Netlify CLI...
+2026-02-04 15:16:23 | INFO | [96m[1m​[22m[39m
+[96m[1mNetlify Build                                                 [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+[36m[1m​[22m[39m
+[36m[1m❯ Version[22m[39m
+  @netlify/build 35.5.14
+[36m[1m​[22m[39m
+[36m[1m❯ Flags[22m[39m
+  accountId: 697db7d47a017c162cfb43bd
+  deployId: 698362bcc7b8a4c916a0d97e
+[36m[1m​[22m[39m
+[36m[1m❯ Current directory[22m[39m
+  /workspaces/edible-algo/recipeai/frontend
+[36m[1m​[22m[39m
+[36m[1m❯ Config file[22m[39m
+  No config file was defined: using default values.
+[36m[1m​[22m[39m
+[36m[1m❯ Context[22m[39m
+  production
+[96m[1m​[22m[39m
+[96m[1mBuild command from Netlify app                                [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+​
+[36m$ npm run build[39m
+
+> recipeai-frontend@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 1492 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.42 kB │ gzip:  0.29 kB
+dist/assets/index-KDyOwIC3.css   21.21 kB │ gzip:  4.79 kB
+dist/assets/index-Dt-DROsd.js   263.60 kB │ gzip: 87.14 kB
+✓ built in 3.49s
+​
+[90m(build.command completed in 3.9s)[39m
+
+Deploying to Netlify
+────────────────────────────────────────────────────────────────
+
+[32mDeploy path: [39m/workspaces/edible-algo/recipeai/frontend/dist
+
+[96m[1m​[22m[39m
+[96m[1mNetlify Build Complete                                        [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+​
+[90m(Netlify Build completed in 10.7s)[39m
+
+🚀 Deploy complete
+────────────────────────────────────────────────────────────────
+
+ ╭───────────────────── ⬥  Production deploy is live ⬥  ─────────────────────╮
+ │                                                                           │
+ │   Deployed to production URL: https://keen-speculoos-9df442.netlify.app   │
+ │                                                                           │
+ │                            Unique deploy URL:                             │
+ │    https://698362bcc7b8a4c916a0d97e--keen-speculoos-9df442.netlify.app    │
+ │                                                                           │
+ ╰───────────────────────────────────────────────────────────────────────────╯
+
+[32mBuild logs: [39m        https://app.netlify.com/projects/keen-speculoos-9df442/deploys/698362bcc7b8a4c916a0d97e
+[32mFunction logs: [39m     https://app.netlify.com/projects/keen-speculoos-9df442/logs/functions
+[32mEdge function Logs: [39mhttps://app.netlify.com/projects/keen-speculoos-9df442/logs/edge-functions
+
+2026-02-04 15:16:23 | INFO | Netlify deployment complete
+2026-02-04 15:16:23 | INFO | ============================================================
+2026-02-04 15:16:23 | INFO | STEP 6: Testing Backend
+2026-02-04 15:16:23 | INFO | ============================================================
+2026-02-04 15:16:23 | INFO | Testing health endpoint: https://implementing-comfortable-elections-finances.trycloudflare.com/health
+2026-02-04 15:16:24 | INFO | Backend health check passed
+2026-02-04 15:16:24 | INFO | 
+2026-02-04 15:16:24 | INFO | ============================================================
+2026-02-04 15:16:24 | INFO | DEPLOYMENT SUCCESSFUL
+2026-02-04 15:16:24 | INFO | ============================================================
+2026-02-04 15:16:24 | INFO | 
+2026-02-04 15:16:24 | INFO | Deployment Summary:
+2026-02-04 15:16:24 | INFO |   Backend:    Running on localhost:8080
+2026-02-04 15:16:24 | INFO |   Tunnel:     https://implementing-comfortable-elections-finances.trycloudflare.com
+2026-02-04 15:16:24 | INFO |   Frontend:   Built at /workspaces/edible-algo/recipeai/frontend/dist
+2026-02-04 15:16:24 | INFO |   Logs:       /workspaces/edible-algo/logs
+2026-02-04 15:16:24 | INFO | 
+2026-02-04 15:32:27 | INFO | 
+2026-02-04 15:32:27 | INFO | ============================================================
+2026-02-04 15:32:27 | INFO | RECIPEAI FULL DEPLOYMENT STARTED
+2026-02-04 15:32:27 | INFO | ============================================================
+2026-02-04 15:32:27 | INFO | 
+2026-02-04 15:32:27 | INFO | ============================================================
+2026-02-04 15:32:27 | INFO | STEP 1: Restarting Backend
+2026-02-04 15:32:27 | INFO | ============================================================
+2026-02-04 15:32:27 | INFO | Stopping existing backend...
+2026-02-04 15:32:28 | INFO | Starting backend on port 8080...
+2026-02-04 15:32:31 | INFO | Backend started
+2026-02-04 15:32:31 | INFO | ============================================================
+2026-02-04 15:32:31 | INFO | STEP 2: Starting Cloudflare Tunnel
+2026-02-04 15:32:31 | INFO | ============================================================
+2026-02-04 15:32:31 | INFO | Checking for existing tunnel...
+2026-02-04 15:32:33 | INFO | Starting tunnel...
+2026-02-04 15:32:33 | INFO | Waiting for tunnel to initialize...
+2026-02-04 15:32:39 | INFO | Tunnel URL: https://telecharger-patricia-durable-midnight.trycloudflare.com
+2026-02-04 15:32:39 | INFO | ============================================================
+2026-02-04 15:32:39 | INFO | STEP 3: Updating Frontend .env.local
+2026-02-04 15:32:39 | INFO | ============================================================
+2026-02-04 15:32:39 | INFO | Updated .env.local with tunnel URL
+2026-02-04 15:32:39 | INFO | ============================================================
+2026-02-04 15:32:39 | INFO | STEP 4: Building Frontend
+2026-02-04 15:32:39 | INFO | ============================================================
+2026-02-04 15:32:39 | INFO | Running npm build...
+2026-02-04 15:32:43 | INFO | 
+> recipeai-frontend@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 1492 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.42 kB │ gzip:  0.29 kB
+dist/assets/index-KDyOwIC3.css   21.21 kB │ gzip:  4.79 kB
+dist/assets/index-HwLt5cKu.js   263.60 kB │ gzip: 87.14 kB
+✓ built in 3.20s
+
+2026-02-04 15:32:43 | INFO | Frontend built successfully
+2026-02-04 15:32:43 | INFO | Build output: /workspaces/edible-algo/recipeai/frontend/dist
+2026-02-04 15:32:43 | INFO | ============================================================
+2026-02-04 15:32:43 | INFO | STEP 5: Deploying to Netlify
+2026-02-04 15:32:43 | INFO | ============================================================
+2026-02-04 15:32:43 | INFO | Deploying with Netlify CLI...
+2026-02-04 15:32:51 | ERROR | Netlify deploy failed:
+ ›   JSONHTTPError: Forbidden
+
+2026-02-04 15:32:51 | ERROR | 
+2026-02-04 15:32:51 | ERROR | ============================================================
+2026-02-04 15:32:51 | ERROR | DEPLOYMENT FAILED: Netlify deployment failed
+2026-02-04 15:32:51 | ERROR | ============================================================
+2026-02-04 15:32:51 | ERROR | 
+2026-02-04 15:37:53 | INFO | 
+2026-02-04 15:37:53 | INFO | ============================================================
+2026-02-04 15:37:53 | INFO | RECIPEAI FULL DEPLOYMENT STARTED
+2026-02-04 15:37:53 | INFO | ============================================================
+2026-02-04 15:37:53 | INFO | 
+2026-02-04 15:37:53 | INFO | ============================================================
+2026-02-04 15:37:53 | INFO | STEP 1: Restarting Backend
+2026-02-04 15:37:53 | INFO | ============================================================
+2026-02-04 15:37:53 | INFO | Stopping existing backend...
+2026-02-04 15:37:54 | INFO | Starting backend on port 8080...
+2026-02-04 15:37:57 | INFO | Backend started
+2026-02-04 15:37:57 | INFO | ============================================================
+2026-02-04 15:37:57 | INFO | STEP 2: Starting Cloudflare Tunnel
+2026-02-04 15:37:57 | INFO | ============================================================
+2026-02-04 15:37:57 | INFO | Checking for existing tunnel...
+2026-02-04 15:37:59 | INFO | Starting tunnel...
+2026-02-04 15:37:59 | INFO | Waiting for tunnel to initialize...
+2026-02-04 15:56:10 | INFO | 
+2026-02-04 15:56:10 | INFO | ============================================================
+2026-02-04 15:56:10 | INFO | RECIPEAI FULL DEPLOYMENT STARTED
+2026-02-04 15:56:10 | INFO | ============================================================
+2026-02-04 15:56:10 | INFO | 
+2026-02-04 15:56:10 | INFO | ============================================================
+2026-02-04 15:56:10 | INFO | STEP 1: Restarting Backend
+2026-02-04 15:56:10 | INFO | ============================================================
+2026-02-04 15:56:10 | INFO | Stopping existing backend...
+2026-02-04 15:56:11 | INFO | Starting backend on port 8080...
+2026-02-04 15:56:14 | INFO | Backend started
+2026-02-04 15:56:14 | INFO | ============================================================
+2026-02-04 15:56:14 | INFO | STEP 2: Starting Cloudflare Tunnel
+2026-02-04 15:56:14 | INFO | ============================================================
+2026-02-04 15:56:14 | INFO | Checking for existing tunnel...
+2026-02-04 15:56:16 | INFO | Starting tunnel...
+2026-02-04 15:56:16 | INFO | Waiting for tunnel to initialize...
+2026-02-04 15:56:22 | INFO | Tunnel URL: https://seekers-prospect-seasonal-manhattan.trycloudflare.com
+2026-02-04 15:56:22 | INFO | ============================================================
+2026-02-04 15:56:22 | INFO | STEP 3: Updating Frontend .env.local
+2026-02-04 15:56:22 | INFO | ============================================================
+2026-02-04 15:56:22 | INFO | Updated .env.local with tunnel URL
+2026-02-04 15:56:22 | INFO | ============================================================
+2026-02-04 15:56:22 | INFO | STEP 4: Building Frontend
+2026-02-04 15:56:22 | INFO | ============================================================
+2026-02-04 15:56:22 | INFO | Running npm build...
+2026-02-04 15:56:26 | INFO | 
+> recipeai-frontend@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 1492 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.42 kB │ gzip:  0.29 kB
+dist/assets/index-KDyOwIC3.css   21.21 kB │ gzip:  4.79 kB
+dist/assets/index-B1R1I7al.js   263.60 kB │ gzip: 87.14 kB
+✓ built in 3.40s
+
+2026-02-04 15:56:26 | INFO | Frontend built successfully
+2026-02-04 15:56:26 | INFO | Build output: /workspaces/edible-algo/recipeai/frontend/dist
+2026-02-04 15:56:26 | INFO | ============================================================
+2026-02-04 15:56:26 | INFO | STEP 5: Deploying to Netlify
+2026-02-04 15:56:26 | INFO | ============================================================
+2026-02-04 15:56:26 | INFO | Deploying with Netlify CLI...
+2026-02-04 15:56:42 | INFO | [96m[1m​[22m[39m
+[96m[1mNetlify Build                                                 [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+[36m[1m​[22m[39m
+[36m[1m❯ Version[22m[39m
+  @netlify/build 35.5.14
+[36m[1m​[22m[39m
+[36m[1m❯ Flags[22m[39m
+  accountId: 66921bd2ebf656c07a87dee3
+  deployId: 69836c312e825f1ebe899bac
+[36m[1m​[22m[39m
+[36m[1m❯ Current directory[22m[39m
+  /workspaces/edible-algo/recipeai/frontend
+[36m[1m​[22m[39m
+[36m[1m❯ Config file[22m[39m
+  No config file was defined: using default values.
+[36m[1m​[22m[39m
+[36m[1m❯ Context[22m[39m
+  production
+[96m[1m​[22m[39m
+[96m[1mBuild command from Netlify app                                [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+​
+[36m$ npm run build[39m
+
+> recipeai-frontend@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 1492 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.42 kB │ gzip:  0.29 kB
+dist/assets/index-KDyOwIC3.css   21.21 kB │ gzip:  4.79 kB
+dist/assets/index-B1R1I7al.js   263.60 kB │ gzip: 87.14 kB
+✓ built in 3.75s
+​
+[90m(build.command completed in 4.2s)[39m
+
+Deploying to Netlify
+────────────────────────────────────────────────────────────────
+
+[32mDeploy path: [39m/workspaces/edible-algo/recipeai/frontend/dist
+
+[96m[1m​[22m[39m
+[96m[1mNetlify Build Complete                                        [22m[39m
+[96m[1m────────────────────────────────────────────────────────────────[22m[39m
+​
+[90m(Netlify Build completed in 8.9s)[39m
+
+🚀 Deploy complete
+────────────────────────────────────────────────────────────────
+
+ ╭───────────────────── ⬥  Production deploy is live ⬥  ─────────────────────╮
+ │                                                                           │
+ │   Deployed to production URL: https://polite-meerkat-e3a44b.netlify.app   │
+ │                                                                           │
+ │                            Unique deploy URL:                             │
+ │    https://69836c312e825f1ebe899bac--polite-meerkat-e3a44b.netlify.app    │
+ │                                                                           │
+ ╰───────────────────────────────────────────────────────────────────────────╯
+
+[32mBuild logs: [39m        https://app.netlify.com/projects/polite-meerkat-e3a44b/deploys/69836c312e825f1ebe899bac
+[32mFunction logs: [39m     https://app.netlify.com/projects/polite-meerkat-e3a44b/logs/functions
+[32mEdge function Logs: [39mhttps://app.netlify.com/projects/polite-meerkat-e3a44b/logs/edge-functions
+
+2026-02-04 15:56:42 | INFO | Netlify deployment complete
+2026-02-04 15:56:42 | INFO | ============================================================
+2026-02-04 15:56:42 | INFO | STEP 6: Testing Backend
+2026-02-04 15:56:42 | INFO | ============================================================
+2026-02-04 15:56:42 | INFO | Testing health endpoint: https://seekers-prospect-seasonal-manhattan.trycloudflare.com/health
+2026-02-04 15:56:43 | INFO | Backend health check passed
+2026-02-04 15:56:43 | INFO | 
+2026-02-04 15:56:43 | INFO | ============================================================
+2026-02-04 15:56:43 | INFO | DEPLOYMENT SUCCESSFUL
+2026-02-04 15:56:43 | INFO | ============================================================
+2026-02-04 15:56:43 | INFO | 
+2026-02-04 15:56:43 | INFO | Deployment Summary:
+2026-02-04 15:56:43 | INFO |   Backend:    Running on localhost:8080
+2026-02-04 15:56:43 | INFO |   Tunnel:     https://seekers-prospect-seasonal-manhattan.trycloudflare.com
+2026-02-04 15:56:43 | INFO |   Frontend:   Built at /workspaces/edible-algo/recipeai/frontend/dist
+2026-02-04 15:56:43 | INFO |   Logs:       /workspaces/edible-algo/recipeai/tools/logs
+2026-02-04 15:56:43 | INFO | 

@@ -1,0 +1,7 @@
+{
+  "dairy": ["milk", "cheese", "butter", "yogurt", "cream"],
+  "nuts": ["almonds", "cashews", "walnuts", "peanuts"],
+  "gluten": ["wheat", "barley", "rye", "flour"],
+  "soy": ["tofu", "soy sauce", "tempeh", "edamame"],
+  "eggs": ["eggs", "egg whites", "mayonnaise"]
+}
